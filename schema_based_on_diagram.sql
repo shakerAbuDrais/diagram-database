@@ -49,4 +49,3 @@ CREATE INDEX ON treatment_history (history_id);
 CREATE INDEX ON treatment_history (treatment_id);
 CREATE INDEX invoice_history ON invoices(medical_history_id);
 CREATE INDEX invoice_treatment_index ON invoice_items(invoice_id, treatment_id);
-
